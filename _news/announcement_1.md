@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my Ph.D. at CMU advised by <a href="https://www.cs.cmu.edu/~breaux/">Dr. Travis Breaux</a>. Exciting times ahead! emoji! :sparkles: :smile:
+Started my Ph.D. at CMU advised by <a href="https://www.cs.cmu.edu/~breaux/">Dr. Travis Breaux</a>. Exciting times ahead! :sparkles: :smile:
