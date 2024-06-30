@@ -110,7 +110,8 @@ x_username: AnmolSinghal21 # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: Reach me at anmolsinghal@cmu.edu or on one of the following social media.
+contact_note: >
+  Reach me through my email anmolsinghal@cmu.edu or on one of the abovementioned social media.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -359,7 +360,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
