@@ -2,10 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student in <a href="https://sc.cs.cmu.edu/">Societal Computing</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>.
+subtitle: Ph.D. in <a href="https://sc.cs.cmu.edu/">Societal Computing</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>.
 
 profile:
   align: right
+  
   image: profile-pic-anmol.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
