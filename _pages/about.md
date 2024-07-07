@@ -6,7 +6,6 @@ subtitle: Ph.D. in <a href="https://sc.cs.cmu.edu/">Societal Computing</a> at <a
 
 profile:
   align: right
-  
   image: profile-pic-anmol.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
