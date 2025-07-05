@@ -1,5 +1,36 @@
 ---
 ---
+
+@inproceedings{singhal-etal-2023-translation,
+    title = "Legal Requirements Translation from Law",
+    author = "Singhal, Anmol  and
+      Breaux, Travis",
+    booktitle = "33rd IEEE International Requirements Engineering Conference (RE 2025)",
+    month = sep,
+    year = "2025",
+    address = "Valencia, Spain",
+    publisher = "IEEE",
+    html = "https://arxiv.org/abs/2507.02846",
+    abstract = "Software systems must comply with legal regulations, which is a resource-intensive task, particularly for small organizations and startups lacking dedicated legal expertise. Extracting metadata from regulations to elicit legal requirements for software is a critical step to ensure compliance. However, it is a cumbersome task due to the length and complex nature of legal text. Although prior work has pursued automated methods for extracting structural and semantic metadata from legal text, key limitations remain: they do not consider the interplay and interrelationships among attributes associated with these metadata types, and they rely on manual labeling or heuristic-driven machine learning, which does not generalize well to new documents. In this paper, we introduce an approach based on textual entailment and in-context learning for automatically generating a canonical representation of legal text, encodable and executable as Python code. Our representation is instantiated from a manually designed Python class structure that serves as a domain-specific metamodel, capturing both structural and semantic legal metadata and their interrelationships. This design choice reduces the need for large, manually labeled datasets and enhances applicability to unseen legislation. We evaluate our approach on 13 U.S. state data breach notification laws, demonstrating that our generated representations pass approximately 89.4% of test cases and achieve a precision and recall of 82.2 and 88.7, respectively.",
+    abbr="RE"
+}
+
+@inproceedings{singhal-etal-2023-translation,
+    title = "Requirements Elicitation Follow-Up Question Generation",
+    author = "Shen, Yuchen and 
+      Singhal, Anmol  and
+      Breaux, Travis",
+    booktitle = "33rd IEEE International Requirements Engineering Conference (RE 2025)",
+    month = sep,
+    year = "2025",
+    address = "Valencia, Spain",
+    publisher = "IEEE",
+    html = "https://arxiv.org/abs/2507.02858",
+    abstract = "Interviews are a widely used technique in eliciting requirements to gather stakeholder needs, preferences, and expectations for a software system. Effective interviewing requires skilled interviewers to formulate appropriate interview questions in real time while facing multiple challenges, including lack of familiarity with the domain, excessive cognitive load, and information overload that hinders how humans process stakeholders' speech. Recently, large language models (LLMs) have exhibited state-of-the-art performance in multiple natural language processing tasks, including text summarization and entailment. To support interviewers, we investigate the application of GPT-4o to generate follow-up interview questions during requirements elicitation by building on a framework of common interviewer mistake types. In addition, we describe methods to generate questions based on interviewee speech. We report a controlled experiment to evaluate LLM-generated and human-authored questions with minimal guidance, and a second controlled experiment to evaluate the LLM-generated questions when generation is guided by interviewer mistake types. Our findings demonstrate that, for both experiments, the LLM-generated questions are no worse than the human-authored questions with respect to clarity, relevancy, and informativeness. In addition, LLM-generated questions outperform human-authored questions when guided by common mistakes types. This highlights the potential of using LLMs to help interviewers improve the quality and ease of requirements elicitation interviews in real time.",
+    abbr="RE"
+}
+
+
 @inproceedings{singhal-etal-2023-towards,
     title = "Towards Mitigating Perceived Unfairness in Contracts from a Non-Legal Stakeholder{'}s Perspective",
     author = "Singhal, Anmol  and
@@ -87,14 +118,20 @@ abbr="HCII",
 html = "https://doi.org/10.1007/978-3-030-78642-7_72"
 }
 
-@article{ghaisas2024dealingdataremitigating,
-      title={Dealing with Data for RE: Mitigating Challenges while using NLP and Generative AI}, 
-      author={Smita Ghaisas and Anmol Singhal},
-      year={2024},
-      abbr={PRE-PRINT},
-      html={https://arxiv.org/abs/2402.16977}, 
-      booktitle={ArXiv},
-      abstract={Across the dynamic business landscape today, enterprises face an ever-increasing range of challenges. These include the constantly evolving regulatory environment, the growing demand for personalization within software applications, and the heightened emphasis on governance. In response to these multifaceted demands, large enterprises have been adopting automation that spans from the optimization of core business processes to the enhancement of customer experiences. Indeed, Artificial Intelligence (AI) has emerged as a pivotal element of modern software systems. In this context, data plays an indispensable role. AI-centric software systems based on supervised learning and operating at an industrial scale require large volumes of training data to perform effectively. Moreover, the incorporation of generative AI has led to a growing demand for adequate evaluation benchmarks. Our experience in this field has revealed that the requirement for large datasets for training and evaluation introduces a host of intricate challenges. This book chapter explores the evolving landscape of Software Engineering (SE) in general, and Requirements Engineering (RE) in particular, in this era marked by AI integration. We discuss challenges that arise while integrating Natural Language Processing (NLP) and generative AI into enterprise-critical software systems. The chapter provides practical insights, solutions, and examples to equip readers with the knowledge and tools necessary for effectively building solutions with NLP at their cores. We also reflect on how these text data-centric tasks sit together with the traditional RE process. We also highlight new RE tasks that may be necessary for handling the increasingly important text data-centricity involved in developing software systems.
-}
+@Inbook{Ghaisas2025,
+author="Ghaisas, Smita
+and Singhal, Anmol",
+editor="Ferrari, Alessio
+and Ginde, Gouri",
+title="Dealing with Data for RE: Mitigating Challenges While Using NLP and Generative AI",
+bookTitle="Handbook on Natural Language Processing for Requirements Engineering",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="457--486",
+abstract="Across the dynamic business landscape today, enterprises face an ever-increasing range of challenges. These include the constantly evolving regulatory environment, the growing demand for personalization within software applications and the heightened emphasis on governance. In response to these multifaceted demands, large enterprises have been adopting automation that spans from the optimization of core business processes to the enhancement of customer experiences. Indeed, Artificial Intelligence (AI) has emerged as a pivotal element of modern software systems. In this context, data plays an indispensable role. AI-centric software systems based on supervised learning and operating at an industrial scale require large volumes of training data to perform effectively. Moreover, the incorporation of generative AI has led to a growing demand for adequate evaluation benchmarks. Our experience in this field has revealed that the requirement for large datasets for training and evaluation introduces a host of intricate challenges. This book chapter explores the evolving landscape of Software Engineering (SE) in general, and Requirements Engineering (RE) in particular, in this era marked by AI integration. We discuss challenges that arise while integrating Natural Language Processing (NLP) and generative AI into enterprise-critical software systems. The chapter provides practical insights, solutions and examples to equip readers with the knowledge and tools necessary for effectively building solutions with NLP at their cores. We reflect on how these text data-centric tasks sit together with the traditional RE process. With this effort, we hope to engage students, faculty and industry researchers in a discussion that could lead to the identification of new and emerging text data-centric tasks relevant to RE. We also highlight new RE tasks that may be necessary for handling the increasingly important text data-centricity involved in developing software systems.",
+isbn="978-3-031-73143-3",
+doi="10.1007/978-3-031-73143-3_17",
+url="https://doi.org/10.1007/978-3-031-73143-3_17"
 }
 
