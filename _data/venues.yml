@@ -1,9 +1,26 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"RE":
+  color: "#0076b6"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CHI":
+  color: "#3a5a97"
 
-"Vision":
-  color: "#009f36"
+"ICAIL":
+  color: "#8c1515"
+
+"IJCNN":
+  color: "#c25e00"
+
+"LREC-COLING":
+  color: "#2a7f62"
+
+"NLLP":
+  color: "#6a1b9a"
+
+"CAIN":
+  color: "#00695c"
+
+"HCII":
+  color: "#5d4037"
+
+"NLP4RE":
+  color: "#455a64"
